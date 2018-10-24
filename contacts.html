@@ -111,11 +111,12 @@
     </div>
 
     <div id="footer">
-        All content is copyrighted by Dr. Matthew Starr <strong>I</strong> <a href="http://www.kemeodesign.com/en/"
-                                                                              target="_blank">Website design by <img
-            src="./img/footer_logo.png"/></a>
+        All content is copyrighted by Dr. Matthew Starr <strong>I</strong>
+        <a href="http://www.kemeodesign.com/en/" target="_blank">Website design by
+            <img src="./images/footer_logo.png" class="desc">
+            <img src="./images/footer_logo_mob.png" class="mob">
+        </a>
     </div>
-
 
 </div>
 <script type="text/javascript" src="js/device.js"></script>
@@ -125,8 +126,6 @@
     document.onload();
 
     var contactsMob = document.querySelector(".menu-item a.mob");
-
-    console.log(contactsMob);
 
     contactsMob.setAttribute("href", "./contacts.html");
 

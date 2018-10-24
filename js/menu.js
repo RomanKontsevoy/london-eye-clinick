@@ -135,7 +135,7 @@ function closeMenu(e) {    // closing menu by clicking on body except burger and
     let target = e.target ? e.target : null;
     let targetIsMenu = false;
     while (target != this) {
-        if (target.classList.contains('mobile-menu') || target.id === ('menu-main-menu')) {
+        if (target.classList.contains('mobile-menu') || target.classList.contains('menu-main-menu-container')) {
             targetIsMenu = true;
             // нашли элемент, который нас интересует!
             return
