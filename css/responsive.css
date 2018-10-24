@@ -31,7 +31,7 @@
     right: 10px;
     top: -13px;
     left: auto;
-    background: #fbfdcf;
+    background: #e0e2d0;
     z-index: 1;
     -webkit-transform: translate(36%, -42%) scale(0);
         -ms-transform: translate(36%, -42%) scale(0);
@@ -174,7 +174,7 @@
   #content p .doctors {
     display: block;
     max-width: 250px;
-    width: 100%;
+    width: 70%;
     margin: 0 auto 10px;
     float: none; }
   .clinic_2_mob, .clinic_3_mob {

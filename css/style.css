@@ -10,6 +10,9 @@ body {
   color: #6e0101;
   background: url("../images/footer_bg.jpg") repeat-x right bottom; }
 
+.nw {
+  white-space: nowrap; }
+
 a img {
   border: 0; }
 
@@ -233,7 +236,8 @@ a img {
   margin-top: 38px;
   border-top: 1px solid #9fa472;
   font: 12px "Arial Regular", Arial, Helvetica, sans-serif;
-  color: #6e6e41; }
+  color: #6e6e41;
+  background: url("../images/footer_top_border.png") no-repeat center -1px/contain; }
 
 #footer a {
   color: #6e6e41;
