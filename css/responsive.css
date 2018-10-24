@@ -1,0 +1,202 @@
+@media all and (max-width: 870px) {
+  #main {
+    width: auto; }
+  #content {
+    padding: 80px 10px 0 270px;
+    max-width: 480px;
+    border: 0 solid green; }
+  #footer {
+    max-width: 480px;
+    margin-left: 270px; } }
+
+@media all and (max-width: 767px) {
+  .desc {
+    display: none; }
+  .mob {
+    display: block; }
+  #content {
+    padding: 80px 25px 0;
+    margin: auto;
+    position: relative; }
+  #logo {
+    top: -44px;
+    left: 4px; }
+  #nav {
+    list-style-type: none;
+    border: 0 solid red;
+    position: absolute;
+    right: 10px;
+    top: -13px;
+    left: auto;
+    background: #fbfdcf;
+    z-index: 1;
+    -webkit-transform: translate(36%, -42%) scale(0);
+        -ms-transform: translate(36%, -42%) scale(0);
+            transform: translate(36%, -42%) scale(0);
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    width: 165px;
+    padding: 89px 0 20px 32px;
+    -webkit-box-shadow: 0 0 20px #bcb8aa;
+            box-shadow: 0 0 20px #bcb8aa; }
+  #nav li a {
+    color: #000; }
+  #nav.active {
+    -webkit-transform: translate(0) scale(1);
+        -ms-transform: translate(0) scale(1);
+            transform: translate(0) scale(1); }
+  .mobile-menu {
+    display: block;
+    position: relative;
+    z-index: 2; }
+  #burger {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 30px;
+    height: 34px;
+    margin: 32px 24px 0 auto;
+    z-index: 2; }
+  .mobile-menu__nice {
+    width: 100%;
+    height: 4px;
+    margin: 3px auto;
+    display: inline-block;
+    background-color: #8c0000;
+    -webkit-transition: .1s ease-in;
+    -o-transition: .1s ease-in;
+    transition: .1s ease-in; }
+  .burger-close .mobile-menu__nice:last-child {
+    display: none; }
+  .burger-close .mobile-menu__nice:first-child {
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    margin: -2px; }
+  .burger-close .mobile-menu__nice:nth-child(2) {
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    margin: -2px; }
+  nav {
+    max-width: 300px;
+    margin-left: auto;
+    width: 51px;
+    -webkit-transition: .1s ease-in;
+    -o-transition: .1s ease-in;
+    transition: .1s ease-in;
+    position: relative; }
+  #nav li {
+    padding: 0;
+    border-bottom: 1px solid #9fa472;
+    height: 60px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative; }
+    #nav li:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: -webkit-calc(50% - 6px);
+      top: calc(50% - 6px);
+      left: 0;
+      width: 4px;
+      height: 14px;
+      background-color: #a10800; }
+    #nav li:nth-child(2):before {
+      background-color: #ad5f00; }
+    #nav li:nth-child(3):before {
+      background-color: #ad7f00; }
+    #nav li:last-child {
+      border-bottom: none; }
+      #nav li:last-child:before {
+        background-color: #ad9900; }
+  .menu-item a {
+    padding: 10px !important; }
+  .sub-menu {
+    position: static;
+    display: block;
+    padding: 0; }
+  .sub-menu li {
+    display: block;
+    width: auto;
+    padding: 0; }
+  .sub-menu li a {
+    padding: 10px; }
+  .clinic-name {
+    display: block;
+    padding-left: 55px; }
+  #content h4 {
+    text-align: left;
+    padding-left: 20px; }
+  #content .content_list_header h2 {
+    margin: 0;
+    line-height: 1.5; }
+  #footer {
+    text-align: center;
+    margin: 38px auto 0; }
+  #footer a {
+    display: block; }
+  #footer strong {
+    display: none; }
+  #footer .desc {
+    display: none; }
+  #footer .mob {
+    display: inline;
+    max-width: 100px; }
+  .arr_up {
+    margin: 80px 0 0 -10px; }
+  #content p .doctors {
+    display: block;
+    max-width: 340px;
+    width: 100%;
+    margin: 0 auto 10px;
+    float: none; }
+  .clinic_2_mob, .clinic_3_mob {
+    display: block; }
+  .clinic_2, .clinic_3 {
+    display: none; }
+  body.without-footer__bg {
+    background: none; }
+  #contact_info {
+    display: none !important; } }
+
+@media all and (max-width: 479px) {
+  .doctor-name {
+    display: block;
+    text-align: center; }
+  .life-period {
+    display: block;
+    text-align: center; }
+  #content .published {
+    text-align: center;
+    padding: 0; } }
+
+@media all and (max-width: 375px) {
+  #content h1 {
+    font-size: 32px; }
+  #content .published {
+    text-align: center;
+    padding: 0;
+    font-size: 18px; } }

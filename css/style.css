@@ -1,0 +1,234 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+html {
+  background: #e0e2d0 url("../images/main_bg.jpg") no-repeat center top; }
+
+body {
+  font: 18px "Arial Narrow", Arial, Helvetica, sans-serif;
+  color: #6e0101;
+  background: url("../images/footer_bg.jpg") repeat-x right bottom; }
+
+a img {
+  border: 0; }
+
+#main {
+  max-width: 1000px;
+  position: relative;
+  margin: 0 auto; }
+
+#logo {
+  position: absolute;
+  top: 56px;
+  left: 42px; }
+
+#nav {
+  padding-left: 11px;
+  position: absolute;
+  top: 192px;
+  left: 33px;
+  background: url("../images/nav_block.png") no-repeat 0px 4px;
+  list-style-type: none;
+  border: 0 solid red; }
+
+#nav li {
+  height: 36px; }
+
+#nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold; }
+
+.mobile-menu {
+  display: none; }
+
+#contact_info {
+  font-size: 16px;
+  list-style-type: none;
+  width: 215px;
+  padding-left: 10px;
+  position: absolute;
+  top: 357px;
+  left: 32px;
+  display: none; }
+
+#contact_info a {
+  color: #ab2800; }
+
+#contact_info a:hover {
+  color: #cc0000; }
+
+#content {
+  padding: 100px 0 0px 322px;
+  max-width: 540px;
+  border: 0 solid green; }
+
+#content h1 {
+  color: #8c0000;
+  font-size: 38px;
+  font-weight: normal; }
+
+#content h1 .welcome {
+  color: #4d0000;
+  font-size: 26px;
+  font-weight: normal; }
+
+#content h2 small {
+  color: #4d0000;
+  font-size: 20px;
+  font-weight: normal; }
+
+#content h2 {
+  padding-top: 19px;
+  color: #8c0000;
+  font-size: 24px;
+  font-weight: normal; }
+
+#content h4 {
+  color: #4d0000;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: right;
+  padding: 0 30px 10px 0; }
+
+#content h5 {
+  color: #4d0000;
+  font-size: 20px;
+  font-weight: normal;
+  margin-left: 85px; }
+
+#content p {
+  padding-top: 14px;
+  line-height: 1.5; }
+
+#content #title_border {
+  margin: 35px 0 -15px 0;
+  border-top: 1px solid #bfc3a0; }
+
+#content p img {
+  float: left;
+  margin: 7px 20px 0 0; }
+
+#content p a {
+  color: #ab2800; }
+
+#content p a:hover {
+  color: #cc0000; }
+
+#content_image {
+  margin-top: 35px;
+  max-width: 488px;
+  border: 0px solid red; }
+
+#content_image img {
+  width: 95%;
+  height: auto; }
+
+#content_image img:nth-child(2) {
+  display: block; }
+
+.clinic_image_wrap {
+  margin-top: 35px;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+
+.clinic-image__container {
+  width: 100%;
+  margin-bottom: 24px; }
+
+.clinic_image {
+  width: 100%;
+  height: auto;
+  float: none;
+  clear: both;
+  display: block; }
+
+.clinic_2,
+.clinic_3 {
+  width: 47.7%; }
+
+.clinic_2_mob,
+.clinic_3_mob {
+  display: none; }
+
+.content_list_header {
+  padding-top: 40px;
+  color: #4d0000;
+  font-size: 20px; }
+
+#content .content_list_header h2 {
+  margin: 0 0 -8px 112px;
+  font-weight: normal;
+  color: #8c0000;
+  padding: 0;
+  font-size: 24px; }
+
+.content_list {
+  padding: 20px 0 0 10px;
+  list-style-image: url("../images/content_marker.jpg");
+  border: 0px solid red; }
+
+.content_list a {
+  color: #ab2800; }
+
+.content_list a:hover {
+  color: #cc0000; }
+
+.no_marker {
+  list-style-type: none;
+  list-style-image: none; }
+
+.arr_up {
+  position: absolute;
+  margin: -124px 0 0 -62px;
+  width: 36px;
+  height: 36px;
+  display: block;
+  background: url("../images/arr_up.png") no-repeat 0 0; }
+
+#footer {
+  padding: 10px 0 50px 0;
+  margin-left: 322px;
+  max-width: 540px;
+  margin-top: 38px;
+  border-top: 1px solid #9fa472;
+  font: 12px "Arial Regular", Arial, Helvetica, sans-serif;
+  color: #6e6e41; }
+
+#footer a {
+  color: #6e6e41;
+  text-decoration: none; }
+
+#footer strong {
+  padding: 0 6px 0 6px; }
+
+#footer img {
+  margin: 0 0 -9px 1px; }
+
+#footer .desc {
+  display: inline; }
+
+.desc {
+  display: block; }
+
+.mob {
+  display: none; }
+
+a.desc {
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
