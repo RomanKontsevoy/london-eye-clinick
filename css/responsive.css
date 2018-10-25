@@ -182,7 +182,10 @@
   body.without-footer__bg {
     background: none; }
   #contact_info {
-    display: none !important; } }
+    display: none !important; }
+  #footer {
+    max-width: 480px;
+    padding: 22px 0 34px 0; } }
 
 @media all and (max-width: 479px) {
   .doctor-name {
